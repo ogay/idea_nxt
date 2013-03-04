@@ -1,0 +1,26 @@
+IDEA NXT encryption algorithm implementation
+Issue date: 02/25/2006
+
+Copyright (C) 2006 Olivier Gay <olivier.gay@a3.epfl.ch>
+All rights reserved.
+
+DESCRIPTION
+-----------
+
+This is a software implementation in ISO C90 of the IDEA NXT encryption
+algorithm. IDEA NXT was designed by Pascal Junod and Serge Vaudenay of the
+Swiss Federal Institute of Technology in Lausanne (EPFL).
+
+This implementation includes the 64-bit and the 128-bit block encryption
+with up to 255 rounds. The key length can be from 0 up to 256 bits with
+a multiple of 8 bits. See the nxt_common.h file to change the different
+options.
+
+PATENTS
+-------
+
+Mediacrypt AG holds software patents in Europe and in the US on the IDEA NXT
+algorithm. For licensing conditions, you should contact Mediacrypt. Their
+website is http://www.mediacrypt.com. IDEA NXT is a registred trademark
+of Mediacrypt.
+
